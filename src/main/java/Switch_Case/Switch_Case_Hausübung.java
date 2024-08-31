@@ -22,8 +22,11 @@ public class Switch_Case_Hausübung {
         Double number2 = scanner.nextDouble();
 
 
+
         System.out.println("Geben Sie Ihr Rechenzeichen ein: ");
         char number3 = scanner.next().charAt(0);
+        scanner.close();
+
 
         Double ergebnis = null;
 
@@ -63,7 +66,7 @@ public class Switch_Case_Hausübung {
 
 
 
-        scanner.close();
+
 
 
     }
